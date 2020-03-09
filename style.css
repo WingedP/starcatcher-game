@@ -1,0 +1,53 @@
+body {
+    background-color: lightpink;
+}
+
+footer {
+    background-color: rgb(19, 16, 16);
+    background-position: center;    
+}
+.containerStyle {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    /* border: 2px solid rgb(51, 172, 116); */
+}
+.score {
+    /* border: 2px solid orangered; */
+    background-color: rgb(54, 173, 173);
+    padding-left: 15px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    color: rgb(34, 23, 34);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.scoreStyle {
+    /* border: 2px solid rgb(51, 53, 119); */
+    background-color: rgb(20, 133, 133);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(226, 217, 217);
+    
+}
+
+.star {
+    width: 60%;
+    padding-right: 6px;
+    margin-left: 6px;
+}
+
+.buttonStyle {
+    background-color: rgb(107, 82, 197);
+    border: none;
+    padding: 11px 10px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+.buttonStyle:hover {
+    background-color: rgb(95, 173, 97); 
+    color: rgb(61, 63, 63);
+  }
